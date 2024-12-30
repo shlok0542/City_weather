@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="location">
+      <input type="text" id="city" placeholder="Enter city name" />
+      <button>Search</button>
+    </div>
+      <div class="weather-info">
+        <section class="top">
+          <div class="temp">
+          </div>
+          <div class="city-name">
+            <h2 class="city" ><marquee>Know Your City Weather Easily</marquee></h2>
+          </div> 
+        </section>
+<section class="bottom">
+  <div class="info">
+    <div>
+      <i class="fa-solid fa-temperature-low fa-beat"></i>
+      <p>Feels like</p>
+      <h6 class="tem"></h6>
+    </div>
+    <div>
+      <i class="fa-solid fa-cloud fa-bounce"></i>
+      <p>Climate</p>
+      <h6 class="weath"></h6>
+    </div>
+    <div>
+      <i class="fa-solid fa-droplet fa-shake"></i>
+      <p>Humidity</p>
+      <h6 class="humi"></h6>
+    </div>
+    <div>
+      <i class="fa fa-eye fa-beat-fade" aria-hidden="true"></i>
+      <p>Visibility</p>
+      <h6 class="visi"></h6>
+    </div>
+    <div>
+      <i class="fa-solid fa-wind"></i>
+      <p>WSW</p>
+      <h6 class="wind"></h6>
+    </div>
+      <div>
+        <i class="fa-brands fa-wpressr"></i>
+        <p>Pressure</p>
+        <h6 class="pre"></h6>
+    </div>
+  </div>
+<!--lon and lat-->
+<div class="map">
+  <div>
+    <div>
+      <i class="fa-solid fa-globe fa-flip"></i>
+      <h6 class="lon"></h6>
+      <p>Longitude</p>
+  </div>
+</div>
+  <div>
+    <div>
+      <i class="fa-solid fa-globe fa-flip"></i>
+      <h6 class="lat"></h6>
+      <p>Latitude</p>
+    </div>
+  </div>
+</div>
+</section>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Service</a>
+        <a href="#"class="footer-link">&phone;  9326663841</a>
+      </div>
+      <p class="footer-text">© Powered By Shlok Maurya</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
